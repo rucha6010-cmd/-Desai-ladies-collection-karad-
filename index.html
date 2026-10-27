@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desai Ladies Collection - Karad</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #d81b60;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 16px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .section-title {
+            text-align: center;
+            color: #d81b60;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .product-info {
+            padding: 15px;
+        }
+        .product-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #444;
+        }
+        .product-price {
+            color: #e91e63;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .btn {
+            background-color: #d81b60;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .btn:hover {
+            background-color: #ad1457;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Desai Ladies Collection</h1>
+        <p>कराड मधील सर्वोत्तम आणि ट्रेंडी लेडीज व किड्स वेअर कलेक्शन!</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">आमची नवीन कलेक्शन (New Arrivals)</h2>
+        
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="IMG-20261027-WA0021.jpg" alt="Traditional Dress">
+                <div class="product-info">
+                    <div class="product-title">पारंपरिक ट्रेडिशनल ड्रेस</div>
+                    <div class="product-price">₹ १,२९९</div>
+                    <button class="btn" onclick="alert('ऑर्डर करण्यासाठी संपर्क करा!')">तपशील पहा</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="IMG-20261027-WA0019.jpg" alt="Pink Gown">
+                <div class="product-info">
+                    <div class="product-title">पार्टी वेअर पिंक गाऊन</div>
+                    <div class="product-price">₹ १,४९९</div>
+                    <button class="btn" onclick="alert('ऑर्डर करण्यासाठी संपर्क करा!')">तपशील पहा</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="IMG-20261027-WA0017.jpg" alt="Kids Outfit">
+                <div class="product-info">
+                    <div class="product-title">स्टायलिश किड्स वेअर सेट</div>
+                    <div class="product-price">₹ ८९९</div>
+                    <button class="btn" onclick="alert('ऑर्डर करण्यासाठी संपर्क करा!')">तपशील पहा</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="IMG-20261027-WA0018.jpg" alt="Pink Lehenga">
+                <div class="product-info">
+                    <div class="product-title">डिसायनर पिंक लेहेंगा</div>
+                    <div class="product-price">₹ १,७९९</div>
+                    <button class="btn" onclick="alert('ऑर्डर करण्यासाठी संपर्क करा!')">तपशील पहा</button>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="IMG-20261027-WA0016.jpg" alt="Ethnic Dress">
+                <div class="product-info">
+                    <div class="product-title">एथनिक डिझायनर फ्रॉक</div>
+                    <div class="product-price">₹ १,१९९</div>
+                    <button class="btn" onclick="alert('ऑर्डर करण्यासाठी संपर्क करा!')">तपशील पहा</button>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <img src="IMG-20261027-WA0013.jpg" alt="Traditional Pattu Pavadai">
+                <div class="product-info">
+                    <div class="product-title">पारंपरिक पट्टू पावादाई</div>
+                    <div class="product-price">₹ १,३९९</div>
+                    <button class="btn" onclick="alert('ऑर्डर करण्यासाठी संपर्क करा!')">तपशील पहा</button>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-card">
+                <img src="IMG-20261027-WA0010.jpg" alt="White Rose Frock">
+                <div class="product-info">
+                    <div class="product-title">व्हाईट रोज डिझायनर फ्रॉक</div>
+                    <div class="product-price">₹ ९९९</div>
+                    <button class="btn" onclick="alert('ऑर्डर करण्यासाठी संपर्क करा!')">तपशील पहा</button>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-card">
+                <img src="IMG-20261027-WA0008.jpg" alt="Denim Set">
+                <div class="product-info">
+                    <div class="product-title">मॉडर्न डेनिम क्रॉप सेट</div>
+                    <div class="product-price">₹ १,०९९</div>
+                    <button class="btn" onclick="alert('ऑर्डर करण्यासाठी संपर्क करा!')">तपशील पहा</button>
+                </div>
+            </div>
+
+            <!-- Product 9 -->
+            <div class="product-card">
+                <img src="IMG-20261027-WA0006.jpg" alt="Casual Outfit">
+                <div class="product-info">
+                    <div class="product-title">कॅज्युअल युनिकॉर्न टी-शर्ट सेट</div>
+                    <div class="product-price">₹ ७९९</div>
+                    <button class="btn" onclick="alert('ऑर्डर करण्यासाठी संपर्क करा!')">तपशील पहा</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; २०२६ Desai Ladies Collection. सर्व हक्क सुरक्षित. | पत्ता: कराड</p>
+    </footer>
+
+</body>
+</html>
